@@ -1,0 +1,150 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>QUIZ</title>
+</head>
+<body>
+    <!-- Top Section -->
+    <div class="intro py-3 bg-white text-center">
+        <div class="container">
+        <h2 class="text-primary display-3 my-4">Playwright Quiz</h2>
+        </div>
+    </div>
+    <!-- Reuslts Section -->
+    <div class="result py-4 d-none bg-light text-center">
+        <div class="container lead">
+        <p>You got <span class="text-primary display-4 p-3">0%</span></p>
+        </div>
+    </div>
+
+
+
+    <!-- Quiz Section -->
+    <div class="quiz py-4 bg-primary">
+        <div class="container">
+        <h2 class="my-5 text-white">On with the questions...</h2>
+        
+        <form class="quiz-form text-light">
+            <div class="my-5">
+            <p class="lead font-weight-normal" >
+                1. What of the following language does not support
+                 for playwright?
+            </p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="A" checked>
+                <label class="form-check-label">C#</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="B" >
+                <label class="form-check-label">Java</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="C" >
+                <label class="form-check-label">TypeScript</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="D" >
+                <label class="form-check-label">Python</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q1" value="E" >
+                <label class="form-check-label">Ruby</label>
+            </div>
+            </div>
+            <div class="my-5">
+            <p class="lead font-weight-normal" >
+                2. Which wait method does playwright use? 
+            </p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="A" checked>
+                <label class="form-check-label">Fluent Wait</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="B" >
+                <label class="form-check-label">Auto Wait</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="C" >
+                <label class="form-check-label">Implicit Wait</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q2" value="D" >
+                <label class="form-check-label">Explicit Wait</label>
+            </div>
+            </div>
+            <div class="my-5">
+            <p class="lead font-weight-normal" >
+                3. What is the default timeout for a test in playwright? 
+            </p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="A" checked>
+                <label class="form-check-label">3000ms</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="B" >
+                <label class="form-check-label">5000ms</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="C" >
+                <label class="form-check-label">30000ms</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q3" value="D" >
+                <label class="form-check-label">None</label>
+            </div>
+            </div>
+            <div class="my-5">
+            <p class="lead font-weight-normal" >
+                4. Which protocol does playwright use? 
+            </p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="A" checked>
+                <label class="form-check-label">W3C protocol</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="B" >
+                <label class="form-check-label">HTTP protocol</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="C" >
+                <label class="form-check-label">HTTPS protocol</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q4" value="D" >
+                <label class="form-check-label">Web Socket protocol</label>
+            </div>
+            </div>
+            <div class="my-5">
+            <p class="lead font-weight-normal" >
+                5. 
+                How can you emulate hovering over an element using Playwright? 
+            </p>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="A" checked>
+                <label class="form-check-label"> page.mouse.hover()</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="B" >
+                <label class="form-check-label"> page.hover()</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="C" >
+                <label class="form-check-label"> page.moveCursor()</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+                <input type="radio" name="q5" value="D" >
+                <label class="form-check-label">  page.mouse.move()</label>
+            </div>
+            </div>
+            <div class="text-center">
+                <input type="submit" class="btn btn-light">
+            </div>
+        </form>   
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
